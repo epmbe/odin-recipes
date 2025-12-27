@@ -11,9 +11,15 @@ A simple recipe website using HTML, showcasing recipes with ingredients, instruc
 ## Structure
 
 ```
-/odin-recipe
-  ├── index.html
-  ├── recipes/
-  ├── images/
-  └── README.md
+.
+├── images
+│   ├── daiquiri.webp
+│   ├── negroni.webp
+│   └── paloma.webp
+├── index.html
+├── README.md
+└── recipes
+    ├── daiquiri.html
+    ├── negroni.html
+    └── paloma.html
 ```
