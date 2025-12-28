@@ -11,14 +11,14 @@ A simple recipe website using HTML, showcasing recipes with ingredients, instruc
 ## Structure
 
 ```
-.
-├── images
+.odin-recipe/
+├── images/
 │   ├── daiquiri.webp
 │   ├── negroni.webp
 │   └── paloma.webp
 ├── index.html
 ├── README.md
-└── recipes
+└── recipes/
     ├── daiquiri.html
     ├── negroni.html
     └── paloma.html
