@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0 50px;
+  list-style: square;
+}
+
+#page-title {
+  font-size: 1.75rem;
+  padding: 30px 20px 20px;
+  color: #1c1b1b;
+}
+
+.recipe-list {
+  font-size: 1.3rem;
+  padding: 1.5px;
+}
+
+.recipe-link {
+  text-decoration: none;
+  color: #1f1e1e;
+}
