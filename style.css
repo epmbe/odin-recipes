@@ -3,15 +3,72 @@
   box-sizing: border-box;
 }
 
-ul {
-  padding: 0 50px;
+body {
+  padding-left: 20px;
+  color: #272424;
+  font-family: system-ui, -apple-system, "Segoe UI", "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+img {
+  height: auto;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul,
+ol {
   list-style: square;
+  font-family: Georgia, Times, serif;
+}
+
+p {
+  text-align: left;
+  margin: auto;
+  width: 40rem;
+  font-size: 1.15rem;
+  font-family: Georgia, Times, serif;
+}
+
+ul.center li,
+ol.center li {
+  font-size: 1.1rem;
+}
+
+ul.center li {
+  list-style: circle;
+}
+
+#main-title,
+#page-title {
+  font-size: 1.75rem;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #1c1b1b;
 }
 
 #page-title {
-  font-size: 1.75rem;
-  padding: 30px 20px 20px;
-  color: #1c1b1b;
+  width: 80rem;
+  margin: auto;
+  display: block;
+}
+
+.recipe-name {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-family: monospace;
+  font-size: 1.3rem;
 }
 
 .recipe-list {
@@ -22,4 +79,14 @@ ul {
 .recipe-link {
   text-decoration: none;
   color: #1f1e1e;
+}
+
+.center {
+  width: 40rem;
+  margin: auto;
+  display: block;
+}
+
+img.center {
+  width: 30rem;
 }
