@@ -37,13 +37,13 @@ p {
   text-align: left;
   margin: auto;
   width: 40rem;
-  font-size: 1.15rem;
+  font-size: 18px;
   font-family: Georgia, Times, serif;
 }
 
 ul.center li,
 ol.center li {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 ul.center li {
