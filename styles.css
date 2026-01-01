@@ -4,35 +4,18 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   background-color: #f3f4f4;
-}
-
-img {
-  border-radius: 25px;
-  object-fit: cover;
-  padding: 10px;
-  width: 100%;
-}
-
-h1 {
-  color: #f3f4f4;
-}
-
-h2 {
-  color: #1d546d;
-}
-
-h3 {
-  color: #f3f4f4;
-  background-color: #5f9598;
-  text-align: center;
-  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .header-container,
 .title-container,
-.photo-grid-container {
+.photo-grid-container,
+.footer-container {
   display: flex;
   justify-content: center;
 }
@@ -43,14 +26,23 @@ h3 {
   width: 900px;
 }
 
+.header h1 {
+  color: #f3f4f4;
+}
+
 .main-grid-container {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .title {
   padding: 10px 20px;
   width: 900px;
+}
+
+.title h2 {
+  color: #1d546d;
 }
 
 .photo-grid {
@@ -64,4 +56,96 @@ h3 {
 
 .photo-grid-item {
   flex: 1;
+}
+
+.photo-grid-item img {
+  border-radius: 25px;
+  object-fit: cover;
+  padding: 10px;
+  width: 100%;
+}
+
+.photo-grid-item h3 {
+  color: #f3f4f4;
+  background-color: #5f9598;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.footer {
+  width: 900px;
+  text-align: center;
+  padding: 10px;
+  background-color: #5f9598;
+  font-size: 20px;
+  color: #f3f4f4;
+}
+
+/* styles for daiquiri page */
+
+.main-recipe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.recipe-photo-container {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.recipe-photo-item {
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-photo-item img {
+  width: 60%;
+}
+
+.recipe-photo-container h3 {
+  color: #1d546d;
+  padding: 5px;
+}
+
+.recipe-photo-container p {
+  color: #061e29;
+  padding: 5px;
+  width: 70%;
+  text-align: center;
+}
+
+.ingredients-steps-container {
+  width: 900px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.ingredients-steps-item {
+  flex: 1;
+}
+
+.header a {
+  text-decoration: none;
+  color: #f3f4f4;
+}
+
+.ingredients-steps-item h4 {
+  color: #1d546d;
+  font-size: 20px;
+  padding: 0 20px 10px;
+}
+
+li {
+  list-style: none;
+  width: 400px;
+}
+
+.ingredients-steps-item li {
+  color: #061e29;
+  padding: 0 20px 10px;
 }
