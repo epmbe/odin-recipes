@@ -1,96 +1,75 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  padding-left: 20px;
-  color: #272424;
-  font-family: system-ui, -apple-system, "Segoe UI", "Open Sans",
-    "Helvetica Neue", sans-serif;
+  background-color: #f3f4f4;
 }
 
 img {
-  height: auto;
+  border-radius: 25px;
+  object-fit: cover;
+  padding: 10px;
+  width: 100%;
+}
+
+h1 {
+  color: #f3f4f4;
+}
+
+h2 {
+  color: #1d546d;
 }
 
 h3 {
+  color: #f3f4f4;
+  background-color: #5f9598;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-size: 20px;
+  margin: 0 10px;
 }
 
-h4 {
-  font-size: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.header-container {
+  display: flex;
+  justify-content: center;
 }
 
-ul,
-ol {
-  list-style: square;
-  font-family: Georgia, Times, serif;
+.header {
+  background-color: #5f9598;
+  padding: 20px;
+  width: 900px;
 }
 
-p {
-  text-align: left;
-  margin: auto;
-  width: 40rem;
-  font-size: 18px;
-  font-family: Georgia, Times, serif;
+.main-grid-container {
+  display: flex;
+  flex-direction: column;
 }
 
-ul.center li,
-ol.center li {
-  font-size: 17px;
+.title-container {
+  display: flex;
+  justify-content: center;
 }
 
-ul.center li {
-  list-style: circle;
+.title {
+  padding: 10px 20px;
+  width: 900px;
 }
 
-ol.center li {
-  list-style: decimal;
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
 }
 
-#main-title,
-#page-title {
-  font-size: 1.75rem;
-  padding-top: 30px;
-  padding-bottom: 20px;
-  color: #1c1b1b;
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 5px 20px;
+  width: 900px;
 }
 
-#page-title {
-  width: 80rem;
-  margin: auto;
-  display: block;
-}
-
-.recipe-name {
-  padding-bottom: 20px;
-  padding-top: 10px;
-  font-family: monospace;
-  font-size: 1.3rem;
-}
-
-.recipe-list {
-  font-size: 1.3rem;
-  padding: 1.5px;
-}
-
-.recipe-link {
-  text-decoration: none;
-  color: #1f1e1e;
-}
-
-.center {
-  width: 40rem;
-  margin: auto;
-  display: block;
-}
-
-img.center {
-  width: 30rem;
+.photo-grid-item {
+  flex: 1;
 }
